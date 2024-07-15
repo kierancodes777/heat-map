@@ -1,0 +1,70 @@
+body {
+position: flex;
+text-align: center;
+align-items: center;
+color: rgb(181, 177, 177);
+}
+
+#months {
+position: relative;
+top: 600px;
+left: -700px;
+transform: rotate(-90deg)
+}
+
+h2 {
+  color: black;
+}
+
+svg {
+  background-color: rgb(34, 34, 33);
+  margin-top: 18vh;
+}
+
+h3 {
+  position: relative;
+  top: 290px;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+  position: relative;
+  top: 150px;
+}
+
+.months {
+  position: unset;
+  left: 30px;
+
+}
+
+#legend {
+  background-color: white;
+  color: black;
+  position: relative;
+  bottom: 240px;
+  left: -300px;
+  height: 50px;
+  width: 500px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 80px;
+  width: 160px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0.8;
+}
+
+#highlight:hover {
+  fill: white;
+}
