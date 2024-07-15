@@ -1,13 +1,4 @@
 import * as d3 from "d3"
-
-export default {
-  build: {
-    rollupOptions: {
-      external: ['d3']
-    }
-  }
-}
-
 let url = "https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json";
 let req = new XMLHttpRequest();
 
